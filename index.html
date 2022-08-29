@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Have I Been Owned?</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>Have I Been <span class="highlight">Owned?</span></h1>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Are Your Credentials Compromised?</h1>
+        <p>Just enter your email and password below to query our database.</p>
+      </div>
+    </section>
+
+    <section id="inputField">
+      <div class="container">
+        <label>Email:</label>
+        <input id="email"/><br />
+        <label>Password:</label>
+        <input id="password" type="password"/><br /><br />
+        <input id="submitBtn" type="submit" onClick="alert('You just gave me your credentials, so yes.')" />
+      </div>
+    </section>
+
+    <footer>
+      <p>Brendan Kiernan | Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
